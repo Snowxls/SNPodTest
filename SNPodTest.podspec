@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SNPodTest"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "A little tools."
 
   
@@ -17,10 +17,10 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
 
 
-  spec.source       = { :git => "https://github.com/Snowxls/SNPodTest.git", :tag => "1.0.5" }
+  spec.source       = { :git => "https://github.com/Snowxls/SNPodTest.git", :tag => "1.0.6" }
 
 
-  spec.source_files  = "Category/*.{h,m}","NetTools/*.{h,m}","ViewTools/*.{h,m}"
+  spec.source_files  = "ViewTools/*.{h,m}"
   #spec.source_files  = "Category.{h,m}"
 
   spec.frameworks = "UIKit","AVFoundation","Foundation"
