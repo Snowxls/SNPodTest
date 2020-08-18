@@ -15,6 +15,7 @@
  */
 +(id)sharedInstance;
 
+
 /**
  获取路径文件md5值
  @param path 文件路径
