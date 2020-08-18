@@ -33,7 +33,7 @@
 }
 
 - (void)createUI {
-    self.backgroundColor = [UIColor colorWithARGB:R_color_lightGray];
+    self.backgroundColor = [UIColor grayColor];
     
     lv_message = [[UILabel alloc] initWithFrame:self.frame];
     lv_message.textAlignment = NSTextAlignmentCenter;
